@@ -1,0 +1,37 @@
+{
+	"gestion_bulk_ammx":{
+		"transactional":{
+			"resTrafficMO":"procDate",
+			"resTrafficMT":"procDate",
+			"resTrafficNotify":"procDate",
+			"trafficMO":"DATE(receivedTime)",
+			"trafficMT":"DATE(receivedTime)",
+			"trafficNotify":"DATE(receivedTime)"
+		}
+	},
+	"iboammx":{
+		"transactional":{
+			"low_balance_event":"none"
+		}
+	},
+    "gestion_mkt_ammx":{
+		"transactional":{
+			"resTrafficMO":"procDate",
+			"resTrafficMT":"procDate",
+			"resTrafficNotify":"procDate",
+			"trafficMO":"DATE(receivedTime)",
+			"trafficMT":"DATE(receivedTime)",
+			"trafficNotify":"DATE(receivedTime)"
+		}
+	},
+	"pme_mx":{
+		"transactional":{
+			"resTrafficMO":"procDate",
+			"resTrafficMT":"procDate",
+			"trafficMO":"DATE(receivedTime)",
+			"trafficMT":"DATE(receivedTime)"
+		}
+	}
+}
+
+
